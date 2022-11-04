@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li v-for="item in filteredItems">
-        {{ item.Name }}
+        <a :href="item.Page" target="_blank"> {{ item.Name }} </a>
       </li>
     </ul>
   </div>
